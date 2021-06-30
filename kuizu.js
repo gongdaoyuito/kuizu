@@ -229,8 +229,8 @@ $(function(){
             var w = $(window).width();
           var h = $(window).height();
  
-            var cw = $("#modal-main").outerWidth();
-           var ch = $("#modal-main").outerHeight();
+            var cw = $("#modal-main2").outerWidth();
+           var ch = $("#modal-main2").outerHeight();
  
         //取得した値をcssに追加する
             $("#modal-main").css({
@@ -241,11 +241,12 @@ $(function(){
    });
 });
 
+
 //modal
 $(function(){
  
   //テキストリンクをクリックしたら
- $("#roku").click(function(){
+ $("#nana").click(function(){
       //body内の最後に<div id="modal-bg"></div>を挿入
      $("body").append('<div id="modal-bg"></div>');
  
@@ -287,7 +288,6 @@ $(function(){
      }
    });
 });
-
 //modal
 $(function(){
  
