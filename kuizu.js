@@ -233,7 +233,7 @@ $(function(){
            var ch = $("#modal-main2").outerHeight();
  
         //取得した値をcssに追加する
-            $("#modal-main").css({
+            $("#modal-main2").css({
                 "left": ((w - cw)/2) + "px",
                 "top": ((h - ch)/2) + "px"
           });
