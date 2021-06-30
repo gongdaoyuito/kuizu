@@ -246,7 +246,7 @@ $(function(){
 $(function(){
  
   //テキストリンクをクリックしたら
- $("#nana").click(function(){
+ $("#roku").click(function(){
       //body内の最後に<div id="modal-bg"></div>を挿入
      $("body").append('<div id="modal-bg"></div>');
  
