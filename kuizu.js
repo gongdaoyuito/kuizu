@@ -211,11 +211,11 @@ $(function(){
           // [ID:sound-file]の音声ファイルを再生[play()]する
           $( '#sound-file' ).get(0).play() ;
         }
-        $("#modal-bg,#modal-main").fadeIn("slow");
+        $("#modal-bg,#modal-main2").fadeIn("slow");
  
     //画面のどこかをクリックしたらモーダルを閉じる
-      $("#modal-bg,#modal-main").click(function(){
-          $("#modal-main,#modal-bg").fadeOut("slow",function(){
+      $("#modal-bg,#modal-main2").click(function(){
+          $("#modal-main2,#modal-bg").fadeOut("slow",function(){
          //挿入した<div id="modal-bg"></div>を削除
               $('#modal-bg').remove() ;
          });
@@ -258,11 +258,11 @@ $(function(){
           // [ID:sound-file]の音声ファイルを再生[play()]する
           $( '#sound-file' ).get(0).play() ;
         }
-        $("#modal-bg,#modal-main2").fadeIn("slow");
+        $("#modal-bg,#modal-main").fadeIn("slow");
  
     //画面のどこかをクリックしたらモーダルを閉じる
-      $("#modal-bg,#modal-main2").click(function(){
-          $("#modal-main2,#modal-bg").fadeOut("slow",function(){
+      $("#modal-bg,#modal-main").click(function(){
+          $("#modal-main,#modal-bg").fadeOut("slow",function(){
          //挿入した<div id="modal-bg"></div>を削除
               $('#modal-bg').remove() ;
          });
